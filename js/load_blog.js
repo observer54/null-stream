@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 🔍 GitHub Pages対応
  const root = window.location.pathname.includes("/blog/")
-  ? "/null-stream/blog/"
-  : "blog/";
+   ? "/null-stream/blog/"
+   : "blog/";
 
 
   try {
