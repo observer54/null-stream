@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const container = document.getElementById("log-list");
 
   // 🔍 ログルートの自動判定
-  const root = window.location.pathname.includes("/logs/") ? "/null-stream/logs/" : "logs/";
+  const root = window.location.pathname.includes("/logs/") ? "/null-stream/logs/";
 
   try {
     const res = await fetch(`${root}index.json`);
