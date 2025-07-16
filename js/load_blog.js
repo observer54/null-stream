@@ -25,7 +25,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const latestBlogLink = document.getElementById("latest-blog-link");
 
   // 🔍 GitHub Pages対応
-  const root = window.location.pathname.includes("/blog/") ? "/null-stream/blog/";
+ const root = window.location.pathname.includes("/blog/")
+  ? "/null-stream/blog/"
+  : "blog/";
+
 
   try {
     const res = await fetch(`${root}blog_index.json`);
