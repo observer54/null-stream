@@ -15,13 +15,12 @@ This project aims to document:
 ## 📁 Structure (planned)
 
 null-stream/
-├── logs/ # Daily observation logs
-├── blog/ # Blog articles (Markdown and HTML)
-├── json/ # Structured data (metadata, logs)
-├── css/ # Shared stylesheets for HTML
-├── assets/ # Images and other static files
-└── README.md # You're here!
-
+├── blog/ # English blog posts in HTML format
+├── css/ # Stylesheets (e.g., log.css for public pages)
+├── docs/ # GitHub Pages root or supplementary documents
+├── images/ # Public image assets (body metrics, meals, etc.)
+├── js/ # JavaScript files for optional features
+└── logs/ # Observation logs in Markdown, HTML, and JSON
 
 ## 🧩 Why “null-stream”?
 
