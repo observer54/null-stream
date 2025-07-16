@@ -34,11 +34,11 @@
 <body>
 
   <h1>📖 B Entries</h1>
-  <p><em>Auto-generated from b_index.json</em></p>
+  <p><em>Auto-generated from blog_index.json</em></p>
   <div id="b-list">Loading...</div>
 
   <script>
-    fetch("b_index.json")
+    fetch("blog_index.json")
       .then(res => {
         if (!res.ok) throw new Error("Fetch failed");
         return res.json();
