@@ -5,7 +5,7 @@
   <title>All Blog Entries – 0.15 Tons of Me</title>
   <meta name="description" content="All blog posts by Mr. Null, archived and listed for viewing.">
   <meta name="author" content="Mr. Null">
-  <link rel="canonical" href="https://observer54.github.io/null-log/blog/">
+  <link rel="canonical" href="https://observer54.github.io/null-stream/blog/">
   <link rel="icon" type="image/png" href="../images/walrus-favicon-v2.png">
  
   <!-- Google Analytics -->
@@ -33,18 +33,18 @@
 </head>
 <body>
 
-  <h1>📖 Blog Entries</h1>
-  <p><em>Auto-generated from blog_index.json</em></p>
-  <div id="blog-list">Loading...</div>
+  <h1>📖 B Entries</h1>
+  <p><em>Auto-generated from b_index.json</em></p>
+  <div id="b-list">Loading...</div>
 
   <script>
-    fetch("blog_index.json")
+    fetch("b_index.json")
       .then(res => {
         if (!res.ok) throw new Error("Fetch failed");
         return res.json();
       })
       .then(data => {
-        const container = document.getElementById("blog-list");
+        const container = document.getElementById("b-list");
         container.innerHTML = "";
 
         for (const [month, entries] of Object.entries(data)) {
@@ -70,8 +70,8 @@
         }
       })
       .catch(err => {
-        console.error("Error loading blog list:", err);
-        document.getElementById("blog-list").textContent = "Failed to load blog entries.";
+        console.error("Error loading b list:", err);
+        document.getElementById("b-list").textContent = "Failed to load b entries.";
       });
   </script>
 
