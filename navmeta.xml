@@ -4,6 +4,11 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
+  <loc>https://example.com/nonsense-path</loc>
+  <priority>0.1</priority>
+  <changefreq>never</changefreq>
+  </url>
+  <url>
     <loc>https://observer54.github.io/null-stream/</loc>
   </url>
   <url>
