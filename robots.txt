@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://observer54.github.io/null-stream/sitemap.xml
+Sitemap: https://observer54.github.io/null-stream/sitemap02.xml
 
